@@ -1,11 +1,12 @@
 import Header from "./Header/Header";
 import AppartBoard from "./AppartBoard/AppartBoard";
+import upcomingAppart from "../upcoming-appart.json"
 
 function App() {
   return (
     <div>
       <Header />
-      <AppartBoard apparts={[1,2,3,4,5]} />
+      <AppartBoard apparts={upcomingAppart} />
     </div>
   );
 }

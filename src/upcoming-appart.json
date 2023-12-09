@@ -1,12 +1,95 @@
 [
     {
         "id":"id-1",
-        "picture":"",
+        "picture":"app1",
         "location":{
             "country":"Italy",
             "city":"Roma"
         },
-        "description":"Роскошные апартаменты в скайндинавском стиле с панорамным видом на реку и бесплатным Wi-Fi. ",
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi. ",
+        "rating":5,
+        "price":1250
+    },
+    {
+        "id":"id-2",
+        "picture":"app2",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },
+     {
+        "id":"id-3",
+        "picture":"app3",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },
+    {
+        "id":"id-4",
+        "picture":"app4",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },{
+        "id":"id-5",
+        "picture":"app5",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },{
+        "id":"id-6",
+        "picture":"app6",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },{
+        "id":"id-7",
+        "picture":"app7",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },{
+        "id":"id-8",
+        "picture":"app8",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
+        "rating":5,
+        "price":1250
+    },{
+        "id":"id-9",
+        "picture":"app9",
+        "location":{
+            "country":"Italy",
+            "city":"Roma"
+        },
+        "description":"Luxurious Scandinavian-style apartments with panoramic river views and free Wi-Fi.",
         "rating":5,
         "price":1250
     }
