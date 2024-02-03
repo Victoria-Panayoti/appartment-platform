@@ -1,12 +1,7 @@
-@import-normalize;
+import { createGlobalStyle } from "styled-components";
+import 'modern-normalize';
 
-:root{
-  --color-light:#E5E5E5;
-  --color-dark:#0F1D2D;
-  --color-primary:#FF662D;
-
-}
-
+export const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul,ol{
+    list-style: none;
+}
+`

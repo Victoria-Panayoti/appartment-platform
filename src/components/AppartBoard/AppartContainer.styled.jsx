@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const AppartContainer = styled.div`
+export const AppartContainer = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 350px);
   gap: 30px;
@@ -8,4 +8,5 @@ export const AppartContainer = styled.div`
   padding-left: 45px;
   padding-right: 45px;
   margin: 0 auto;
+  list-style:none;
 `
