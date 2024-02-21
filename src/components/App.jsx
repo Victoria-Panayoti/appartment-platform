@@ -1,10 +1,13 @@
+import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import AppartDetails from '../pages/AppartDetails';
-import Appartments from '../pages/Appartments';
-import Home from '../pages/Home'
 import SharedLayout from './SharedLayout/SharedLayout';
 
+const Home = lazy(() => import('../pages/Home'));
+const Appartments = lazy(() => import('../pages/Appartments'));
+const AppartDetails=lazy(()=>import('../pages/AppartDetails'))
+
 export function App() {
+  
   return (
     <Routes>
       <Route path="/" element={<SharedLayout/>}>
