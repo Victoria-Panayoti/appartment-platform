@@ -23,6 +23,10 @@ const SharedLayout = () => {
           <LinkNav to="/">Home</LinkNav>
           <LinkNav to="/appartments">Appartments</LinkNav>
         </nav>
+        <nav>
+          <LinkNav to="/register">Register</LinkNav>
+          <LinkNav to="/login">Log In</LinkNav>
+        </nav>
       </Header>
       <main>
         <Suspense fallback={<div>Loading...</div>}>

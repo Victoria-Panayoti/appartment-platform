@@ -33,46 +33,6 @@ export const AppartCard = ({ appart:{id,picture,country,city,description,rating,
         )}
       </AppartThumb>)
 }
-// export class AppartCard extends Component {
-//   state = {
-//     selectedImg: null,
-//   };
-//   setSelectedImg = () => {
-//     this.setState({ selectedImg: this.props.appart.id });
-//   };
-//   leaveSelectedImg = () => {
-//     this.setState({ selectedImg: null });
-//   };
-
-//   render() {
-//     const { selectedImg } = this.state;
-//     const {
-//       appart: { id, picture, description, rating, price },
-//     } = this.props;
-//     return (
-//       <AppartThumb
-//         key={id}
-//         onMouseOver={this.setSelectedImg}
-//         onMouseLeave={this.leaveSelectedImg}
-//       >
-//         <AppartImage
-//           src={require(`../../pictures/${picture}.jpg`)}
-//           alt={description}
-//         />
-//         {selectedImg && (
-//           <DescribeThumb>
-//             <p>{description}</p>
-//             <p>
-//               <IoMdStarHalf />
-//               {rating}
-//             </p>
-//             <p> UAH {price} per night</p>
-//           </DescribeThumb>
-//         )}
-//       </AppartThumb>
-//     );
-//   }
-// }
 
 AppartCard.propTypes = {
   appart: PropTypes.shape({

@@ -6,11 +6,6 @@ import { useState } from 'react';
 
 const Appartments = () => {
 
-  // const getApparts = () => {
-  //   return initialApparts;
-  // };
-
-  // const apparts = getApparts();
   const[apparts]=useState(initialApparts)
   const [searchParams, setSearchParams] = useSearchParams();
   const country = searchParams.get('country')??'';
